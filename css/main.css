@@ -110,7 +110,7 @@ a:hover, a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "lora-regular", serif;
     color: #000000;
     font-style: normal;
     font-weight: normal;
@@ -1460,7 +1460,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 175px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1790,7 +1790,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h3 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "lora-regular", serif;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
@@ -1802,7 +1802,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "lora-regular", serif;
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
@@ -1815,7 +1815,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__buttons {
-    padding-top: 6rem;
+    padding-top: 3rem;
     text-align: left;
 }
 
@@ -2053,7 +2053,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1500px) {
     .home-content h1 {
-        font-size: 6rem;
+        font-size: 4.5rem;
     }
     .home-content__main {
         max-width: 1000px;
@@ -2062,7 +2062,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1200px) {
     .home-content h1 {
-        font-size: 5.5rem;
+        font-size: 4.5rem;
     }
     .home-content__main {
         max-width: 800px;
@@ -2071,7 +2071,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1000px) {
     .home-content h1 {
-        font-size: 4.6rem;
+        font-size: 4.5rem;
     }
     .home-content br {
         display: none;
@@ -3380,10 +3380,10 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 85px;
-    height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
-    background-size: 85px 28px;
+    width: 185px;
+    height: 60.9412px;
+    background: url("../images/logo.png") no-repeat center;
+    background-size: 185px 60.9412px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
