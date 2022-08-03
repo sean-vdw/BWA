@@ -501,7 +501,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #1d3a72;
+    background: #5a5959;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -544,7 +544,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #1d3a72;
+    background-color: #5a5959;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -846,8 +846,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: #1d3a72;
+    border-color: #1d3a72;
 }
 
 
@@ -1212,7 +1212,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "lora-regular", serif;
     font-size: 7.8rem;
     line-height: 1.25;
     color: #000000;
@@ -1224,7 +1224,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "lora-regular", serif;
     font-size: 5.2rem;
     line-height: 1.255;
     color: #000000;
