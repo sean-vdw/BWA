@@ -2603,8 +2603,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__title {
-    font-family: "montserrat-semibold", sans-serif;
-    font-size: 1.4rem;
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 2rem;
     line-height: 1.286;
     color: #FFFFFF;
     text-transform: uppercase;
