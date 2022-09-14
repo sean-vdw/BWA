@@ -870,7 +870,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke, button.btn--stroke {
-    background: transparent !important;
+    background: transparent;
     border: 0.2rem solid #1d3a72;
     color: #1d3a72;
 }
@@ -878,6 +878,20 @@ input[type="button"].btn--primary:focus {
 .btn--stroke:hover, button.btn--stroke:hover {
     border: 0.2rem solid #000000;
     color: #000000;
+}
+
+.btn-menu-group {
+    margin-bottom: 1rem;
+}
+
+.btn.btn--stroke.btn-menu {
+    width: 90%;
+    border: 0.2rem solid #ffffff;
+}
+
+.btn.btn--stroke.btn-menu:hover {
+    color: #000000;
+    background: #ffffff;
 }
 
 .btn--pill, button.btn--pill {
@@ -1529,7 +1543,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-nav__list {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.8rem;
-    margin: 3.6rem 0 3rem 0;
+    margin: 3.6rem 0 0.65rem 0;
     padding: 0 0 1.8rem 0;
     list-style: none;
 }
@@ -1889,6 +1903,31 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     bottom: 0;
 }
 
+.explore-content {
+    opacity: 0.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.explore-content:hover {
+    opacity: 1;
+}
+
+.explore-content:hover:first-child {
+    transform: translate(7px);
+}
+
+.explore-text {
+    color: #ffffff;
+    margin-left: 1.25rem;
+    font-size: 2rem;
+}
+
+.fa-regular.fa-circle-right.fa-lg {
+    color: rgb(133, 148, 178);
+    margin-bottom: 3rem;
+}
 
 /* ------------------------------------------------------------------- 
  * ## home social 
